@@ -61,16 +61,16 @@ describe('caesarCipher', () => {
   });
 
   test(`should return null if first argument isn't a string`, () => {
-    expect(caesarCipher([], 10)).toBe(null);
-    expect(caesarCipher({}, 2)).toBe(null);
-    expect(caesarCipher(334, 300)).toBe(null);
-    expect(caesarCipher(/someREGXP/, 5)).toBe(null);
+    expect(caesarCipher([], 10)).toBeNull();
+    expect(caesarCipher({}, 2)).toBeNull();
+    expect(caesarCipher(334, 300)).toBeNull();
+    expect(caesarCipher(/someREGXP/, 5)).toBeNull();
   });
 
   test(`should return null if second argument isn't a number`, () => {
-    expect(caesarCipher('hello', '5')).toBe(null);
-    expect(caesarCipher('world', [])).toBe(null);
-    expect(caesarCipher('', { one: 1 })).toBe(null);
-    expect(caesarCipher('caesar', /10/)).toBe(null);
+    expect(caesarCipher('hello', '5')).toBeNull();
+    expect(caesarCipher('world', [])).toBeNull();
+    expect(caesarCipher('', { one: 1 })).toBeNull();
+    expect(caesarCipher('caesar', /10/)).toBeNull();
   });
 });
