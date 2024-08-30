@@ -1,4 +1,4 @@
-const calculator = require('../calculator');
+const calculator = require('../lib/calculator');
 
 describe('calculator', () => {
   test('should exist', () => {

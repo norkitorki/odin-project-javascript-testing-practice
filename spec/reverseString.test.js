@@ -1,4 +1,4 @@
-const reverseString = require('../reverseString');
+const reverseString = require('../lib/reverseString');
 
 describe('reverseString', () => {
   test('should exist', () => {

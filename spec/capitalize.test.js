@@ -1,4 +1,4 @@
-const capitalize = require('../capitalize');
+const capitalize = require('../lib/capitalize');
 
 describe('capitalize', () => {
   test('should exist', () => {

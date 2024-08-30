@@ -1,4 +1,4 @@
-const caesarCipher = require('../caesarCipher');
+const caesarCipher = require('../lib/caesarCipher');
 
 describe('caesarCipher', () => {
   test('should exist', () => {

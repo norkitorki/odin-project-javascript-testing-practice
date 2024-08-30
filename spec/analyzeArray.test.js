@@ -1,4 +1,4 @@
-const analyzeArray = require('../analyzeArray');
+const analyzeArray = require('../lib/analyzeArray');
 
 describe('analyzeArray', () => {
   const arr = [21, 56, 13, 7, 41, 22, 81, 15, 32, 77, 3, 11, 27, 62, 45];
